@@ -1,0 +1,21 @@
+{
+  "name": "dev-fortune",
+  "version": "1.0.0",
+  "description": "Developer fortune cookies - inspirational quotes for your terminal",
+  "main": "src/index.js",
+  "bin": {
+    "dev-fortune": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test test/"
+  },
+  "keywords": ["cli", "fortune", "quotes", "developer", "terminal"],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "chalk": "^4.1.2",
+    "js-yaml": "^4.1.0",
+    "boxen": "^5.1.2"
+  }
+}
