@@ -1,13 +1,14 @@
-const fs = require('fs');
-const path = require('path');
-const os = require('os');
+import fs from 'fs';
+import path from 'path';
+import os from 'os';
 
-const CONFIG_DIR = path.join(os.homedir(), '.dev-fortune');
-const CONFIG_PATH = path.join(CONFIG_DIR, 'config.json');
+export const CONFIG_DIR = path.join(os.homedir(), '.dev-fortune');
+export const CONFIG_PATH = path.join(CONFIG_DIR, 'config.json');
 
-const DEFAULTS = {
+export const DEFAULTS = {
   style: 'default',
   quotesFile: null,
+  language: null,
 };
 
 function ensureConfigDir() {
@@ -16,7 +17,7 @@ function ensureConfigDir() {
   }
 }
 
-function loadConfig() {
+export function loadConfig() {
   ensureConfigDir();
   if (!fs.existsSync(CONFIG_PATH)) {
     return { ...DEFAULTS };
@@ -29,21 +30,19 @@ function loadConfig() {
   }
 }
 
-function saveConfig(config) {
+export function saveConfig(config) {
   ensureConfigDir();
   fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2) + '\n');
 }
 
-function getConfig(key) {
+export function getConfig(key) {
   const config = loadConfig();
   return key ? config[key] : config;
 }
 
-function setConfig(key, value) {
+export function setConfig(key, value) {
   const config = loadConfig();
   config[key] = value;
   saveConfig(config);
   return config;
 }
-
-module.exports = { loadConfig, saveConfig, getConfig, setConfig, CONFIG_DIR, CONFIG_PATH, DEFAULTS };

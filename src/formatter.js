@@ -1,7 +1,7 @@
-const chalk = require('chalk');
-const boxen = require('boxen');
+import chalk from 'chalk';
+import boxen from 'boxen';
 
-const STYLES = {
+export const STYLES = {
   default: 'default',
   box: 'box',
   minimal: 'minimal',
@@ -10,7 +10,7 @@ const STYLES = {
 function formatDefault(quote) {
   const text = chalk.cyan(`"${quote.quote}"`);
   const author = chalk.gray(`— ${quote.by}`);
-  return `\n  ${text}\n  ${' '.repeat(quote.quote.length - 2)}${author}\n`;
+  return `\n  ${text}\n  ${' '.repeat(Math.max(0, quote.quote.length - 2))}${author}\n`;
 }
 
 function formatBox(quote) {
@@ -29,7 +29,7 @@ function formatMinimal(quote) {
   return `${quote.quote} — ${quote.by}`;
 }
 
-function formatQuote(quote, style) {
+export function formatQuote(quote, style) {
   switch (style) {
     case STYLES.box:
       return formatBox(quote);
@@ -41,7 +41,7 @@ function formatQuote(quote, style) {
   }
 }
 
-function formatList(quotes, style) {
+export function formatList(quotes, style) {
   return quotes.map((q, i) => {
     if (style === STYLES.minimal) {
       return `${i + 1}. ${q.quote} — ${q.by}`;
@@ -51,5 +51,3 @@ function formatList(quotes, style) {
     return `  ${text}\n    ${author}`;
   }).join('\n\n');
 }
-
-module.exports = { formatQuote, formatList, STYLES };

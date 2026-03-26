@@ -1,0 +1,30 @@
+# Development files
+.git/
+.github/
+test/
+coverage/
+.nyc_output/
+
+# Config files
+.eslintrc*
+.prettierrc*
+.editorconfig
+.travis.yml
+.gitignore
+
+# Build artifacts
+*.log
+*.tgz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Legacy
+dev-fortune.sh
+
+# OS
+.DS_Store
+Thumbs.db

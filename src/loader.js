@@ -1,6 +1,10 @@
-const fs = require('fs');
-const path = require('path');
-const yaml = require('js-yaml');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import yaml from 'js-yaml';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const BUILTIN_QUOTES_PATH = path.join(__dirname, '..', 'quotes.json');
 
@@ -14,7 +18,7 @@ function loadYamlFile(filePath) {
   return yaml.load(content);
 }
 
-function loadQuotesFromFile(filePath) {
+export function loadQuotesFromFile(filePath) {
   const ext = path.extname(filePath).toLowerCase();
   if (ext === '.json') {
     return loadJsonFile(filePath);
@@ -24,7 +28,7 @@ function loadQuotesFromFile(filePath) {
   throw new Error(`Unsupported file format: ${ext}. Use .json or .yaml/.yml`);
 }
 
-function loadQuotes(customPath) {
+export function loadQuotes(customPath) {
   if (customPath) {
     const resolved = path.resolve(customPath);
     if (!fs.existsSync(resolved)) {
@@ -35,12 +39,12 @@ function loadQuotes(customPath) {
   return loadJsonFile(BUILTIN_QUOTES_PATH);
 }
 
-function getRandomQuote(quotes) {
+export function getRandomQuote(quotes) {
   const idx = Math.floor(Math.random() * quotes.length);
   return quotes[idx];
 }
 
-function addQuote(filePath, quote, author) {
+export function addQuote(filePath, quote, author) {
   const resolved = filePath ? path.resolve(filePath) : BUILTIN_QUOTES_PATH;
   const quotes = loadQuotesFromFile(resolved);
   quotes.push({ quote, by: author || 'Anonymous' });
@@ -53,5 +57,3 @@ function addQuote(filePath, quote, author) {
   }
   return quotes.length;
 }
-
-module.exports = { loadQuotes, getRandomQuote, addQuote, loadQuotesFromFile };
