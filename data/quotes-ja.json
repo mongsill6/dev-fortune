@@ -1,0 +1,102 @@
+[
+  {
+    "quote": "プログラムとは、読まれるべき散文であり、たまたま機械に実行されるもの。",
+    "by": "Douglas Crockford",
+    "category": "architecture"
+  },
+  {
+    "quote": "バグは私の友人だ。なぜなら、バグは私を良いプログラマーにしてくれるから。",
+    "by": "まつもとゆきひろ",
+    "category": "debugging"
+  },
+  {
+    "quote": "コードを書く前に、石の上にも三年座って考えろ。",
+    "by": "Japanese Programming Wisdom",
+    "category": "architecture"
+  },
+  {
+    "quote": "保守しやすいコードを書くことは、愛する者にラブレターを書くことと同じ。",
+    "by": "Robert Martin",
+    "category": "architecture"
+  },
+  {
+    "quote": "デバッグは、自分の作ったバグを追いかける奇妙な遊びだ。",
+    "by": "Japanese Programming Wisdom",
+    "category": "debugging"
+  },
+  {
+    "quote": "最も複雑なアルゴリズムよりも、良いチームワークが大事である。",
+    "by": "Japanese Tech Wisdom",
+    "category": "teamwork"
+  },
+  {
+    "quote": "ゲームデザインの本質は、制約を愛することだ。",
+    "by": "宮本茂",
+    "category": "motivation"
+  },
+  {
+    "quote": "1000行のコードより、100行の完璧なコードの方が価値がある。",
+    "by": "Japanese Programming Wisdom",
+    "category": "architecture"
+  },
+  {
+    "quote": "プログラマーの99%の問題は、キャッシュの無効化とネーミングである。",
+    "by": "Programming Folklore",
+    "category": "humor"
+  },
+  {
+    "quote": "コードレビューは、チームの知恵を一つにするための儀式だ。",
+    "by": "Japanese Tech Wisdom",
+    "category": "teamwork"
+  },
+  {
+    "quote": "簡潔さは、洗練の究極の形である。コードも同じ。",
+    "by": "Steve Jobs",
+    "category": "architecture"
+  },
+  {
+    "quote": "本当のバグは、コンパイラが見つけるバグではなく、ユーザーが見つけるバグだ。",
+    "by": "Japanese Programming Wisdom",
+    "category": "debugging"
+  },
+  {
+    "quote": "プログラミングは芸術と科学の融合である。論理と創造性が必要だ。",
+    "by": "Japanese Tech Wisdom",
+    "category": "motivation"
+  },
+  {
+    "quote": "今日のギャグなコードは、明日の本番環境のバグ。",
+    "by": "Programming Folklore",
+    "category": "humor"
+  },
+  {
+    "quote": "コードは人間が読むために書かれるべきで、機械が読むためではない。",
+    "by": "Donald Knuth",
+    "category": "architecture"
+  },
+  {
+    "quote": "バグを見つけることは、宝物を探すようなものだ。",
+    "by": "Japanese Programming Wisdom",
+    "category": "debugging"
+  },
+  {
+    "quote": "チームプレイなしで、素晴らしいソフトウェアは生まれない。",
+    "by": "Japanese Tech Wisdom",
+    "category": "teamwork"
+  },
+  {
+    "quote": "不可能だと思っていることが、単なる難しいことに変わるとき、そこが成長の始まりだ。",
+    "by": "Japanese Programmer's Wisdom",
+    "category": "motivation"
+  },
+  {
+    "quote": "デバッグするより、正しく設計する方が10倍簡単だ。",
+    "by": "Japanese Programming Wisdom",
+    "category": "architecture"
+  },
+  {
+    "quote": "技術的負債は、最初は小さな借金だが、最後には大きな借金になる。",
+    "by": "Japanese Tech Wisdom",
+    "category": "architecture"
+  }
+]

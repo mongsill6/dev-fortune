@@ -1,0 +1,252 @@
+[
+  {
+    "quote": "The only way to go fast is to go well.",
+    "by": "Robert C. Martin",
+    "category": "debugging"
+  },
+  {
+    "quote": "Debugging is like being the detective in a crime drama.",
+    "by": "Filipe Fortes",
+    "category": "debugging"
+  },
+  {
+    "quote": "Most of my bugs have been exercises in humility.",
+    "by": "Andy Hunt",
+    "category": "debugging"
+  },
+  {
+    "quote": "A bug in the code is worth two in the documentation.",
+    "by": "Unknown",
+    "category": "debugging"
+  },
+  {
+    "quote": "The best debugging tool is still careful thought, coupled with judiciously placed print statements.",
+    "by": "Brian W. Kernighan",
+    "category": "debugging"
+  },
+  {
+    "quote": "To understand what code does, read it. To understand what it should do, read the tests.",
+    "by": "Unknown",
+    "category": "debugging"
+  },
+  {
+    "quote": "If it's hard to read, it's hard to debug.",
+    "by": "Unknown",
+    "category": "debugging"
+  },
+  {
+    "quote": "Every minute spent debugging is a minute not spent coding.",
+    "by": "Unknown",
+    "category": "debugging"
+  },
+  {
+    "quote": "The best code is no code at all.",
+    "by": "Jeff Atwood",
+    "category": "debugging"
+  },
+  {
+    "quote": "Don't debug standing up.",
+    "by": "Gerald M. Weinberg",
+    "category": "debugging"
+  },
+  {
+    "quote": "The best way to predict the future is to invent it.",
+    "by": "Alan C. Kay",
+    "category": "architecture"
+  },
+  {
+    "quote": "Architecture is about making fundamental structural choices that are costly to change once implemented.",
+    "by": "Grady Booch",
+    "category": "architecture"
+  },
+  {
+    "quote": "Simple is better than complex. Complex is better than complicated.",
+    "by": "Tim Peters",
+    "category": "architecture"
+  },
+  {
+    "quote": "There are two ways to design software. One way is to make it so simple there are obviously no deficiencies. The other is to make it so complicated that there are no obvious deficiencies.",
+    "by": "C.A.R. Hoare",
+    "category": "architecture"
+  },
+  {
+    "quote": "Make it work, make it right, make it fast - in that order.",
+    "by": "Kent Beck",
+    "category": "architecture"
+  },
+  {
+    "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "by": "Martin Fowler",
+    "category": "architecture"
+  },
+  {
+    "quote": "Premature optimization is the root of all evil.",
+    "by": "Donald Knuth",
+    "category": "architecture"
+  },
+  {
+    "quote": "Code is read much more often than it is written.",
+    "by": "Guido van Rossum",
+    "category": "architecture"
+  },
+  {
+    "quote": "The best architecture is one where the decisions have been made by people with the most information at the point in time those decisions have to be made.",
+    "by": "Robert C. Martin",
+    "category": "architecture"
+  },
+  {
+    "quote": "A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.",
+    "by": "Antoine de Saint-Exupéry",
+    "category": "architecture"
+  },
+  {
+    "quote": "Teamwork makes the dream work.",
+    "by": "John C. Maxwell",
+    "category": "teamwork"
+  },
+  {
+    "quote": "The greatest achievements in software go to those teams that embrace the diversity of thought and challenge each other respectfully.",
+    "by": "Unknown",
+    "category": "teamwork"
+  },
+  {
+    "quote": "Alone we can do so little; together we can do so much.",
+    "by": "Helen Keller",
+    "category": "teamwork"
+  },
+  {
+    "quote": "Code reviews are about collaborative learning.",
+    "by": "Sarah Drasner",
+    "category": "teamwork"
+  },
+  {
+    "quote": "The goal of a great software engineer is not to write code, but to enable others to write better code.",
+    "by": "Unknown",
+    "category": "teamwork"
+  },
+  {
+    "quote": "Your body of work doesn't get better when you're defending your code, it gets better when you're learning from others.",
+    "by": "Unknown",
+    "category": "teamwork"
+  },
+  {
+    "quote": "Communication is the most important skill in programming.",
+    "by": "Unknown",
+    "category": "teamwork"
+  },
+  {
+    "quote": "No developer has ever lacked the will to write code that works - they just lacked the skill to work together.",
+    "by": "Unknown",
+    "category": "teamwork"
+  },
+  {
+    "quote": "The most important tool a developer can have is empathy - for their teammates and their users.",
+    "by": "Unknown",
+    "category": "teamwork"
+  },
+  {
+    "quote": "We are not makers of history. We are made by history.",
+    "by": "Martin Luther King Jr.",
+    "category": "teamwork"
+  },
+  {
+    "quote": "The only way to do great work is to love what you do.",
+    "by": "Steve Jobs",
+    "category": "motivation"
+  },
+  {
+    "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill",
+    "category": "motivation"
+  },
+  {
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "by": "Eleanor Roosevelt",
+    "category": "motivation"
+  },
+  {
+    "quote": "Don't watch the clock; do what it does. Keep going.",
+    "by": "Sam Levenson",
+    "category": "motivation"
+  },
+  {
+    "quote": "It does not matter how slowly you go as long as you do not stop.",
+    "by": "Confucius",
+    "category": "motivation"
+  },
+  {
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "by": "Chinese Proverb",
+    "category": "motivation"
+  },
+  {
+    "quote": "You don't have to be great to start, but you have to start to be great.",
+    "by": "Zig Ziglar",
+    "category": "motivation"
+  },
+  {
+    "quote": "The expert in anything was once a beginner.",
+    "by": "Helen Hayes",
+    "category": "motivation"
+  },
+  {
+    "quote": "Every expert was once an amateur.",
+    "by": "Wayne Gretzky",
+    "category": "motivation"
+  },
+  {
+    "quote": "It always seems impossible until it's done.",
+    "by": "Nelson Mandela",
+    "category": "motivation"
+  },
+  {
+    "quote": "Why do Java developers wear glasses? Because they can't C#.",
+    "by": "Unknown",
+    "category": "humor"
+  },
+  {
+    "quote": "How many programmers does it take to change a light bulb? None, that's a hardware problem.",
+    "by": "Unknown",
+    "category": "humor"
+  },
+  {
+    "quote": "Why do programmers prefer dark mode? Because light attracts bugs.",
+    "by": "Unknown",
+    "category": "humor"
+  },
+  {
+    "quote": "A SQL query walks into a bar, walks up to two tables and asks in a loud voice... 'Can I join you?'",
+    "by": "Unknown",
+    "category": "humor"
+  },
+  {
+    "quote": "Why do Python programmers wear glasses? Because they don't C.",
+    "by": "Unknown",
+    "category": "humor"
+  },
+  {
+    "quote": "It works on my machine.",
+    "by": "Every Programmer",
+    "category": "humor"
+  },
+  {
+    "quote": "99 little bugs in the code, 99 little bugs in the code. Take one down, patch it around, 127 little bugs in the code.",
+    "by": "Unknown",
+    "category": "humor"
+  },
+  {
+    "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+    "by": "Thomas Edison",
+    "category": "humor"
+  },
+  {
+    "quote": "The most effective debugging tool is still careful thought, coupled with judiciously placed console.log statements.",
+    "by": "Unknown",
+    "category": "humor"
+  },
+  {
+    "quote": "Real programmers don't document. If it was hard to write, it should be hard to read.",
+    "by": "Unknown",
+    "category": "humor"
+  }
+]
