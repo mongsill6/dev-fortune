@@ -1,0 +1,13 @@
+{
+  "contributors": [
+    {
+      "name": "mongsill6",
+      "github": "mongsill6",
+      "role": "creator",
+      "contributions": ["code", "quotes", "docs", "infra"],
+      "joinedAt": "2026-03-01"
+    }
+  ],
+  "totalContributors": 1,
+  "lastUpdated": "2026-03-27"
+}
