@@ -154,4 +154,18 @@ program
     console.log();
   });
 
+// tui (interactive mode)
+program
+  .command('tui')
+  .description('Launch interactive TUI mode')
+  .action(async () => {
+    const { fileURLToPath } = await import('url');
+    const pathMod = await import('path');
+    const { execSync: exec } = await import('child_process');
+    const __filename = fileURLToPath(import.meta.url);
+    const __dirname = pathMod.dirname(__filename);
+    const tuiEntry = pathMod.join(__dirname, 'tui', 'index.js');
+    exec(`node ${tuiEntry}`, { stdio: 'inherit' });
+  });
+
 program.parse();

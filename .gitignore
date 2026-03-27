@@ -4,3 +4,5 @@ node_modules/
 *.tmp
 web/node_modules/
 web/dist/
+.tui-bundle.mjs
+src/tui/.bundle.mjs
