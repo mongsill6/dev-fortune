@@ -1,0 +1,10 @@
+node_modules
+web/node_modules
+.git
+.github
+*.md
+!README.md
+.env*
+coverage
+.DS_Store
+*.log
