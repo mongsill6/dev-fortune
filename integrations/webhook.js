@@ -4,8 +4,6 @@
  * ES module with native fetch, error handling, and retry logic
  */
 
-import { formatFortuneBlock } from './slack/blocks.js';
-
 // Logger utility
 const logger = {
   info: (msg, data = '') => console.log(`[webhook] ℹ ${msg}`, data),
@@ -101,12 +99,26 @@ function escapeJSON(text) {
 function formatSlackPayload(quote) {
   logger.debug('Formatting message for Slack');
 
-  // Use existing Block Kit formatting from slack/blocks.js
-  const blocks = formatFortuneBlock(quote);
-
   return {
-    blocks,
-    text: `"${quote.text}" — ${quote.author}`, // Fallback text
+    blocks: [
+      {
+        type: 'section',
+        text: {
+          type: 'mrkdwn',
+          text: `*_"${quote.text}"_*`,
+        },
+      },
+      {
+        type: 'context',
+        elements: [
+          {
+            type: 'mrkdwn',
+            text: `*Author:* ${quote.author} | *Category:* ${quote.category}`,
+          },
+        ],
+      },
+    ],
+    text: `"${quote.text}" — ${quote.author}`,
   };
 }
 
